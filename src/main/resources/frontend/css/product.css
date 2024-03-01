@@ -1,0 +1,157 @@
+
+
+/* logo */
+.rounded{
+    width: 70px;
+    border-radius: 18.25rem!important;
+    margin-left: 10px;
+}
+
+.storeName{
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    color: #f6f6f6;
+}
+
+.nav{
+    background-color: #1ECBF4;
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav li:hover a{
+    background-color: Red;
+}
+
+.menu a{
+    color: #f6f6f6;
+    font-size: 30px;
+}
+
+.jumbotron{
+    overflow: hidden;
+    background-color: #1ECBF4;
+    color: white;
+    padding: 0px 0px 25px 0;
+    border-radius: 0;
+    margin: 0;
+}
+
+.caption{
+    background-color: rgb(108, 102, 102);
+    opacity: 50%;
+}
+
+.caption h5, .caption p{
+    opacity: 100%;
+     color: yellow;
+}
+
+.container-fluid{
+    padding: 60px 50px;
+}
+.bg-grey{
+    background-color: #f6f6f6 ;
+}
+
+/* fix kich thuoc anh */
+.card-img-top{
+    width: 270.22px;
+    height: 284px;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+}
+
+.card img {
+  transition: transform 0.3s ease; /* Tạo hiệu ứng smooth */
+}
+
+.card:hover img {
+  transform: scale(1.1); /* Thay đổi kích thước khi di chuột qua */
+}
+
+
+/* Ten dien thoai */
+.card-title a{
+	font-size: 25px;
+	font-family: fantasy;
+}
+
+/* footer */
+
+footer{
+margin: 0px;
+background-color: #ffffff;
+border-top: 1px solid black;
+}
+
+.content_footer{
+display: flex;
+}
+/* company */
+.company{
+width: calc(100%/3);
+padding: 32px 0 0px 0;
+}
+
+.company .title, .menu_footer .title{
+text-transform: uppercase;
+font-weight: bold;
+font-size: 18px;
+}
+
+
+.company p{
+margin: 7px 0;
+}
+
+.content_footer a{
+text-decoration: none;
+color: #2d2c2c;
+}
+
+/* Menu footer */
+.menu_footer{
+width: calc((100%*2)/3);
+display: flex;
+padding: 32px 0 0px 0;
+}
+
+.item_menu_footer{
+width: calc(100%/3);
+}
+
+.item_menu_footer .title {
+margin-bottom: 15px ;
+}
+
+.item_menu_footer li{
+padding: 7px 0;
+}
+
+.item_menu_footer a{
+color: #2d2c2c;
+}
+
+.map{
+border: 5px solid #e4e1e1;
+}
+/* Footer_end */
+.footer_end{
+background-color: #1790cf;
+align-items: center;
+width: 100%;
+}
+
+.footer_end p{
+margin: 0;
+padding: 20px 0;
+color: #d9d6d6;
+}

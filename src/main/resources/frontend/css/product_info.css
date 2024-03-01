@@ -1,0 +1,173 @@
+/* logo */
+.rounded{
+    width: 70px;
+    border-radius: 18.25rem!important;
+    margin-left: 10px;
+}
+
+.storeName{
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    color: #f6f6f6;
+}
+
+/* Menu */
+.nav{
+    background-color: #1ECBF4;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav li:hover a{
+    background-color: Red;
+}
+
+.menu a{
+    color: #f6f6f6;
+    font-size: 30px;
+}
+
+
+/* Main */
+main{
+    margin-bottom: 30px;
+}
+
+.detail {
+    margin-top: 20px; /* Thêm khoảng cách giữa các phần tử khác trong chi tiết sản phẩm */
+}
+
+.detail__heading {
+    font-size: 1.5rem;
+}
+
+.detail__text {
+    max-height: 150px; /* Số pixel bạn muốn hiển thị ban đầu */
+    overflow: hidden;
+    transition: max-height 0.5s ease; /* Hiệu ứng mượt mà khi mở rộng */
+}
+
+.expanded {
+    max-height: none; /* Khi nội dung được mở rộng, hiển thị toàn bộ nội dung */
+}
+
+button {
+    /* background-color: #007bff; Màu nền của nút */
+    /* color: #fff; Màu chữ của nút */
+    /* padding: 8px 16px; Kích thước lề của nút */
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+
+
+.product_name{
+    font-size: 30px;
+}
+
+.freeship{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(58, 221, 66);
+    text-transform: uppercase;
+    border: 1px solid blue;
+}
+
+fieldset{
+    border: 1px solid red ;
+    width: 663px;
+    margin-top: 1px;
+    padding: 0;
+}
+
+fieldset label{
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.legend{
+    border: 1px solid red;
+    width: 240px;
+    margin-left: 20px;
+    border-radius: 5%;
+    
+}
+
+/* footer */
+
+footer{
+margin: 0px;
+background-color: #ffffff;
+border-top: 1px solid black;
+}
+
+.content_footer{
+display: flex;
+}
+/* company */
+.company{
+width: calc(100%/3);
+padding: 32px 0 0px 0;
+}
+
+.company .title, .menu_footer .title{
+text-transform: uppercase;
+font-weight: bold;
+font-size: 18px;
+}
+
+
+.company p{
+margin: 7px 0;
+}
+
+.content_footer a{
+text-decoration: none;
+color: #2d2c2c;
+}
+
+/* Menu footer */
+.menu_footer{
+width: calc((100%*2)/3);
+display: flex;
+padding: 32px 0 0px 0;
+}
+
+.item_menu_footer{
+width: calc(100%/3);
+}
+
+.item_menu_footer .title {
+margin-bottom: 15px ;
+}
+
+.item_menu_footer li{
+padding: 7px 0;
+}
+
+.item_menu_footer a{
+color: #2d2c2c;
+}
+
+.map{
+border: 5px solid #e4e1e1;
+}
+/* Footer_end */
+.footer_end{
+background-color: #1790cf;
+align-items: center;
+width: 100%;
+}
+
+.footer_end p{
+margin: 0;
+padding: 20px 0;
+color: #d9d6d6;
+}
+
